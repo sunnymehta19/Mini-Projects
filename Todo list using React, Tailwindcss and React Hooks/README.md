@@ -21,4 +21,3 @@ Tasks are stored in "localStorage", so they remain saved even after closing or r
 - JavaScript (ES6+)
 - Vite / Create React App (depending on your setup)
 
----
