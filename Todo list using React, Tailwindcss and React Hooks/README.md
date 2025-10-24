@@ -19,5 +19,5 @@ Tasks are stored in "localStorage", so they remain saved even after closing or r
 - React (Functional Components & Hooks)
 - Tailwind CSS
 - JavaScript (ES6+)
-- Vite / Create React App (depending on your setup)
+- Vite
 
