@@ -63,7 +63,6 @@ const checkWinner = () => {
 
         if (pos1Val != "" && pos2Val != "" && pos3Val != "") {
             if (pos1Val === pos2Val && pos2Val === pos3Val) {
-                // console.log("Winnner", pos1Val);
                 showWinner(pos1Val);
                 return true;
             }
@@ -75,7 +74,6 @@ const checkWinner = () => {
 
 box.forEach((box) => {
     box.addEventListener("click", () => {
-        // console.log("box clicked");
         if (turnO) {
             //player O
             box.innerHTML = "O"

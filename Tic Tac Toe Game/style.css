@@ -15,7 +15,6 @@
 
 
 body {
-    /* background-color: #A31621; */
     background-color: #1F1C2C;
 }
 
@@ -53,9 +52,6 @@ h2 {
     margin-bottom: 20px;
     color: #928DAB;
 
-    /* color: #A31621; red */
-    /* color: #1F1C2C; */
-
 }
 
 .box {
@@ -69,12 +65,7 @@ h2 {
     color: #ffffff;
     font-size: 65px;
     font-family: "Waiting for the Sunrise", cursive;
-    /* font-family: monospace; */
-
     cursor: pointer;
-
-    /* background-color: beige; */
-    /* border: 2px solid black; */
 }
 
 .box:hover {
@@ -113,13 +104,10 @@ h2 {
 
 .message {
     display: flex;
-    /* color: white; */
     border: 2px solid white;
     justify-content: center;
     align-items: center;
     position: fixed;
-    /* transform: translateX(1000%); */
-    /* top: 30%; */
     transform: translate(50%, -50%);
     right: 50%;
     top: 50%;
@@ -131,9 +119,6 @@ h2 {
     font-size: 55px;
     border-radius: 18px;
     font-family: "Exo 2", sans-serif;
-
-
-
 
 }
 
@@ -188,7 +173,6 @@ h2 {
         height: 90px;
         font-size: 40px;
         font-family: "Waiting for the Sunrise", cursive;
-        /* background-color: red; */
 
     }
 
@@ -215,7 +199,6 @@ h2 {
     }
 
     .message {
-        /* position: fixed; */
         width: 260px;
         height: 160px;
         right: 20%;
