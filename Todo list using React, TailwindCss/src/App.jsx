@@ -106,7 +106,7 @@ function App() {
           </div>
           <div className='border border-black h-[1px] w-[85%] mx-auto my-3 opacity-20'></div>
           <div className="font-bold md:text-lg mx-5">Your Todos</div>
-          <div className="todoContainer overflow-y-auto max-h-[50vh] md:mx-5 rounded-lg">
+          <div className="todoContainer overflow-y-auto max-h-[52vh] md:mx-5 rounded-lg">
 
             {addToArray.filter(item => showFinished ? true : !item.isCompleted).map(item => {
               return (
