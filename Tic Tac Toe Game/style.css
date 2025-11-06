@@ -23,7 +23,8 @@ body {
 h2 {
     text-align: center;
     font-size: 55px;
-    margin: 14px;
+    margin: 0 14px;
+    margin-top: 40px;
     color: #FCF7F8;
     text-transform: uppercase;
     word-spacing: 7px;
