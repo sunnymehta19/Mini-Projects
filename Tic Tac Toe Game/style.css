@@ -168,11 +168,19 @@ h2 {
 }
 
 @media (min-width: 351px) and (max-width: 430px) {
+    h2 {
+        margin-top: 50px;
+        text-transform: capitalize;
+    }
+
     .box {
         width: 90px;
         height: 90px;
         font-size: 40px;
-        font-family: "Waiting for the Sunrise", cursive;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
 
     }
 
@@ -195,7 +203,6 @@ h2 {
         font-size: 60px;
         background-color: red;
         font-family: "Waiting for the Sunrise", cursive;
-
     }
 
     .message {
