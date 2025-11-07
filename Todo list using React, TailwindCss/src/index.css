@@ -3,13 +3,18 @@
 @tailwind utilities;
 
 
+@media (max-width:750px) {
+  body {
+    background-color: #c5d9e0;
+  }
+}
 
 .todoContainer::-webkit-scrollbar {
   width: 8px;
 }
 
 .todoContainer::-webkit-scrollbar-track {
-    background: #91bdcd;
+  background: #91bdcd;
 }
 
 .todoContainer::-webkit-scrollbar-thumb {
